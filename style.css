@@ -33,7 +33,7 @@
 #navbar ul li a:hover{
     color: white;
     background: red;
-    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 200px red;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red;
     text-decoration: none;
 }
 .logo{
@@ -168,7 +168,7 @@
     width: 240px;
     height: 390px;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 100%;
 }
 .h1review{
     padding: 20px 10px;
