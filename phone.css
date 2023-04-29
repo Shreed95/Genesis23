@@ -155,3 +155,78 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 }
+
+@media only screen and (max-width:1052px) and (min-width:480px) {
+
+    /* Navigation */
+
+    #navbar ul {
+        margin-left: 20px;
+    }
+
+    #navbar ul li {
+        font-size: 10px;
+    }
+
+    #navbar ul li a {
+        padding: 5px 8px;
+    }
+    .logo {
+        margin: 1px 1px;
+    }
+
+    .logo img {
+        margin: 5px 10px;
+        height: 45px;
+    }
+
+    .logo div {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* About Us section */
+    #home {
+        height: 420px;
+    }
+
+    #home h1 {
+        padding: 14px;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    #home p {
+        font-size: 20px;
+        margin: 0px 30px;
+    }
+
+    /* Events */
+    .events {
+        display: grid;
+        grid-gap: 1fr;
+        grid-template-columns: repeat(2,auto);
+    }
+
+    .events img {
+        height: 150px;
+    }
+
+    .box h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .box p {
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px 10px;
+    }
+
+    /* Student's Testimonial */
+    #review {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+}

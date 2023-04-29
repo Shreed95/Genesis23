@@ -147,7 +147,7 @@
 /* Student's Testimonial */
 
 #review-container{
-    background-color: #6b1717;
+    background: url("Images/bg2.avif")
 }
 #review{
     display: grid;
